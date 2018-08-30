@@ -1,5 +1,5 @@
 {
-  "name": "agunsaocs",
+  "name": "resit_boilerplate",
   "private": true,
   "dependencies": {
     "datatables.net": "^1.10.19",
