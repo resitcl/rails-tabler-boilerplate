@@ -22,7 +22,7 @@ rails g tabler_scaffold Order user:references client:references name due_date
 
 ### Comandos que correr
 - `bundle exec rake secret` y reemplazar los _hash_ en `secrets.yml`
-- `rake db:create && rake db:seed`
+- `rake db:create && rake db:migrate && rake db:seed`
 - `npm install`
 
 ### English
@@ -47,5 +47,5 @@ rails g tabler_scaffold Order user:references client:references name due_date
 
 ### Commands
 - `bundle exec rake secret` and replace `secrets.yml` secrets
-- `rake db:create && rake db:seed`
+- `rake db:create && rake db:migrate && rake db:seed`
 - `npm install`
